@@ -208,7 +208,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="341"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZQ0-hF-43M" id="Hlw-aK-1tU">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="341"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="340.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default-placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="5qw-mg-aBm">
@@ -317,10 +317,10 @@
             </objects>
             <point key="canvasLocation" x="1723" y="305"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Friends List-->
         <scene sceneID="v99-yf-Gs4">
             <objects>
-                <tableViewController id="2Ku-fq-ShH" customClass="FriendsTableViewController" customModule="ParseStarterProject_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Friends List" id="2Ku-fq-ShH" customClass="FriendsTableViewController" customModule="ParseStarterProject_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="f6m-S5-VSD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,7 +340,7 @@
                             <outlet property="delegate" destination="2Ku-fq-ShH" id="pLt-5n-4cn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="c0U-bw-1nf"/>
+                    <navigationItem key="navigationItem" title="Friends List" id="c0U-bw-1nf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCx-YD-1nX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
